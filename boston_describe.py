@@ -9,9 +9,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sbn
 import matplotlib.pyplot as plt
-import sklearn
-from sklearn.cross_validation import train_test_split
-from sklearn.linear_model import LinearRegression
 
 boston = pd.read_csv('boston.csv')
 
